@@ -52,7 +52,7 @@ class PreventIpServiceProvider extends ServiceProvider {
                 }
             }
             if ($checkPath && $checkIp) {
-                View::addNamespace('prevent-ip', base_path('workbench') . '/megaads/prevent-ip/src/views');
+                View::addNamespace('prevent-ip', base_path('vendor') . '/megaads/prevent-ip/src/views');
                 echo View::make('prevent-ip::index', [
                     'ip' => $ip,
                     'url' => \Illuminate\Support\Facades\Request::url()
