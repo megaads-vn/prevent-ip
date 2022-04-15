@@ -1,0 +1,24 @@
+{
+    "name": "megaads/prevent-ip",
+    "description": "",
+    "authors": [
+        {
+            "name": "Megaads",
+            "email": "info@megaads.vn"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/controllers"
+        ],
+        "psr-0": {
+            "Megaads\\PreventIp\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
