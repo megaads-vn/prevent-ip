@@ -1,5 +1,5 @@
 # prevent-ip
-Prevent Ip
+Prevent Ip in Laravel 4
 
 ## Installation
 
